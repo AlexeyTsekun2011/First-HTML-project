@@ -1,0 +1,39 @@
+html {
+  background-color: gray;
+}
+.Github {
+  position: relative;
+  top: -20px; /* Поднимает блок выше */
+  left: -20px; /* Двигает блок влево */
+}
+
+.Github h1, .Github p, .Github a {
+  position: relative;
+  top: -300px;/* Поднимает текст выше */
+  left: -300px;/* Двигает текст влево */
+}
+
+
+body, html {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#Main-container{
+  position: relative;
+  top: -0px;
+  left: -0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+
+}
